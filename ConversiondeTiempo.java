@@ -13,21 +13,21 @@ public class ConversiondeTiempo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresar los días: ");
+        System.out.print("Ingresar los dias: ");
         int dias = scanner.nextInt();
 
-        System.out.print("Ingresar las horas: ");
+        System.out.print("ingresar las horas: ");
         int horas = scanner.nextInt();
 
-        System.out.print("Ingresar los minutos: ");
+        System.out.print("ingresar los minutos: ");
         int minutos = scanner.nextInt();
 
-        System.out.print("Ingresar los segundos: ");
+        System.out.print("ingresar los segundos: ");
         int segundos = scanner.nextInt();
 
         scanner.close();
 
         long resultado = convertirAMilisegundos(dias, horas, minutos, segundos);
-        System.out.println("Tiempo en milisegundos: " + resultado);
+        System.out.println("tiempo en milisegundos: " + resultado);
     }
 }
